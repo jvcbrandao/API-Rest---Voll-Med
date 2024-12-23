@@ -1,0 +1,13 @@
+--              CREATE TABLE medicos (
+--                  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--                  nome VARCHAR(255) NOT NULL,
+--                  email VARCHAR(255) NOT NULL UNIQUE,
+--                  crm VARCHAR(50) NOT NULL UNIQUE,
+--                  especialidade VARCHAR(50) NOT NULL,
+--                  rua VARCHAR(255) NOT NULL,
+--                  numero VARCHAR(20) NOT NULL,
+--                  bairro VARCHAR(255) NOT NULL,
+--                  cidade VARCHAR(255) NOT NULL,
+--                  estado VARCHAR(2) NOT NULL -- Usando padrão de sigla (ex: SP, RJ, etc.)
+--              );
+--
